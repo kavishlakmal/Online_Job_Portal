@@ -1,0 +1,80 @@
+
+
+.faq-container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+}
+
+.faq-txt{
+    
+    margin: 50px 30px 30px 30px;
+    padding-left:20%;
+    color: rgb(9, 43, 94);
+    font-weight: bold;
+    text-shadow:  2px 2px 10px rgba(176, 181, 201, 0.5);
+}
+
+.faq {
+    margin-bottom: 15px;
+}
+
+.faq h3 {
+    cursor: pointer;
+    color: #007BFF;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.faq p {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+
+.contact {
+    width: 615px;  
+    height: 80px;  
+    background-color: rgba(195, 211, 255, 0.295); 
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 12, 58, 0.486); 
+    color: white;
+    backdrop-filter: blur(2px);
+
+}
+
+.help-text{
+    text-align: left;
+    margin-left: 40px;
+}
+.contact-btn{
+    text-align: right;
+    padding: 10px 50px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3; 
+}
